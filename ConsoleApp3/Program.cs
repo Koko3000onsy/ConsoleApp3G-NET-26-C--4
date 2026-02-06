@@ -86,6 +86,53 @@ namespace ConsoleApp3
 
 
             #endregion
+            #region Q3
+            //string filePath = ".pdf";
+            //string filetype;
+            //switch (filePath)
+            //{
+            //    case (".pdf"):
+            //        filetype = "pdf document";
+            //        break;
+            //    case (".doc"):
+            //    case (".docx"):
+            //        filetype = "Word document";
+            //        break;
+
+            //    case (".xls"):
+            //    case (".xlsx"):
+            //        filetype = "Excel spreadsheet";
+            //        break;
+
+            //    case (".jpg"):
+            //        filetype = "JPEG image";
+            //        break;
+            //    case (".png"):
+            //        filetype = "PNG image";
+            //        break;
+            //    case (".gif"):
+            //        filetype = "gif image";
+            //        break;
+            //    default:
+            //        filetype = "Unknown file type";
+            //        break;
+
+
+            //}
+            //Console.WriteLine(filetype);
+            //string filePath = ".pdf";
+            //string filetype = filePath switch
+            //{
+            //    ".pdf" => "pdf document",
+            //    ".doc" or ".docx" => "Word document",
+            //    ".xls" or ".xlsx" => "Excel spreadsheet",
+            //    ".jpg" => "JPEG image",
+            //    ".png" => "PNG image",
+            //    ".gif" => "gif image",
+            //};
+            //Console.WriteLine(filetype);
+
+            #endregion
         }
     }
 }
