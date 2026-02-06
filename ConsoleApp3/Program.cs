@@ -17,7 +17,7 @@ namespace ConsoleApp3
             //{
             //    sb.Append("prod-" + i + ",");
             //    watch1.Stop();
-                
+
             //}
             //Console.WriteLine($"StringBuilder Time: {watch1.ElapsedMilliseconds} ms");
             //string productlist = "";
@@ -25,6 +25,65 @@ namespace ConsoleApp3
             //for (int i = 0; i <= 5000; i++)
             //{ productlist += "prod-" + i + ","; }
             //Console.WriteLine($"StringBuilder Time: {watch2.ElapsedMilliseconds} ms");
+
+            #endregion
+            #region َََََQ2
+            //Console.WriteLine("Enter your age:");
+            //int age = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter the day (1-7, where 6=Fri, 7=Sat):");
+            //int day = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Do you have a student ID? (yes/no):");
+            //string studentid = Console.ReadLine().ToLower();
+            //bool isStudent = studentid == "yes";
+            //double ticketPrice = 0;
+            //double overPrice = 0;
+            //double discount = 0;
+            //if (age < 5)
+            //{
+            //    ticketPrice = 0; // Free for children under 5
+            //}
+            //else if (age > 5 && age <= 12)
+            //{
+            //    ticketPrice = 30; // $30 for children between 5 and 12
+            //}
+            //else if (age > 12 && age <= 59)
+            //{
+            //    ticketPrice = 50; // $50 for adults between 12 and 59
+            //}
+            //else
+            //{
+            //    ticketPrice = 25; // $25 for seniors over 60
+            //}
+            //if (ticketPrice > 0 && (day == 6 || day == 7))
+            //{
+            //    overPrice = 10;
+            //}
+
+            //double totalPrice = ticketPrice + overPrice;
+
+            //if(isStudent&& totalPrice > 0)
+            //{
+            //                    discount = totalPrice * 0.20;
+            //}
+            //totalPrice -= discount;
+            //Console.WriteLine($" Ticket Price: ${ticketPrice}");
+            //if(discount>0)
+            //{
+            //    Console.WriteLine($" Student Discount: -${discount}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine(" No Student Discount Applied");
+            //}
+            //if (overPrice > 0)
+            //{
+            //    Console.WriteLine($" Weekend Surcharge: +${overPrice}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine(" No Weekend Surcharge Applied");
+            //}
+
 
             #endregion
         }
