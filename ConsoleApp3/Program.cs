@@ -133,6 +133,15 @@ namespace ConsoleApp3
             //Console.WriteLine(filetype);
 
             #endregion
+            #region Q4
+            //int degree = 35;
+            //string weatheradvice= degree<0? "It's freezing!" :
+            //     degree < 15 ? "It's cold." :
+            //     degree < 25 ? "pleassant weather." :
+            //     degree < 35 ? "It's warm. " :
+            //    "It's hot! ";
+            //not redable
+            #endregion
         }
     }
 }
