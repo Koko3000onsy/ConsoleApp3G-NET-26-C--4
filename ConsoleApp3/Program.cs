@@ -188,7 +188,7 @@ namespace ConsoleApp3
             //         isvalid= false;
             //        Console.WriteLine("Password must not contain spaces.");
             //    }
-                 
+
             //    if (isvalid)
             //    {
             //        Console.WriteLine("Password is valid.");
@@ -203,6 +203,63 @@ namespace ConsoleApp3
             //{
             //    Console.WriteLine("Maximum attempts reached. your account blocked.");
             //}
+            #endregion
+            #region Q6
+            //int[] number = { 85, 42, 91, 67, 55, 78, 39, 88, 72, 95, 60, 48 };
+            //bool above90 = false;
+            //int sum = 0;
+            //int count = 0;
+            //int a = 0;
+            //int b = 0;
+            //int c = 0;
+            //int d = 0;
+            //int f = 0;
+            //for (int i = 0; i < number.Length; i++) 
+            //{ 
+            //    if(number[i] <50)
+            //    {
+            //        Console.WriteLine($"{number[i]} is below 50.");
+                    
+            //    }
+            //    if (number[i] > 90&& !above90)
+            //    {
+            //        Console.WriteLine($"{number[i]} is above 90.");
+            //        above90 = true;
+            //    }
+            //    if(number[i] >= 40)
+            //    {
+            //        sum += number[i];
+            //        count++;
+            //    }
+            //    if(number[i] >= 90 && number[i]<=100)
+            //        {
+            //            a++;
+            //        }
+            //        else if (number[i] >= 80 && number[i]<=89)
+            //        {
+            //            b++;
+            //        }
+            //        else if (number[i] >= 70 && number[i] <= 79)
+            //        {
+            //            c++;
+            //        }
+            //        else if (number[i] >= 60 && number[i] <= 69)
+            //        {
+            //            d++;
+            //        }
+            //        else
+            //        {
+            //            f++;
+            //    }
+            //}
+            //double avg = 0;
+            //avg=sum/count;
+            //Console.WriteLine("Average of numbers above 40: " + avg);
+            //Console.WriteLine("number of student have grade between 90 and 100: " + a);
+            //Console.WriteLine("number of student have grade between 80 and 89: " + b);
+            //Console.WriteLine("number of student have grade between 70 and 79: " + c);
+            //Console.WriteLine("number of student have grade between 60 and 69: " + d);
+            //Console.WriteLine("number of student have grade below 60: " + f);
             #endregion
         }
     }
