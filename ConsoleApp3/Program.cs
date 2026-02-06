@@ -142,6 +142,68 @@ namespace ConsoleApp3
             //    "It's hot! ";
             //not redable
             #endregion
+            #region Q5
+            //int attempt = 0;
+            //bool isvalid = true;
+            //bool isdigits = false;
+            //bool isupper = false;
+            //bool hasspace = false;
+            //do
+            //{
+            //    Console.Write("Enter password: ");
+            //    string password = Console.ReadLine();
+            //    attempt++;
+            //    if(password.Length < 8)
+            //    {
+            //        isvalid = false;
+            //        Console.WriteLine("Password must be at least 8 characters long.");
+            //    }
+            //    foreach (char c in password)
+            //    {
+            //        if (char.IsDigit(c))
+            //        {
+            //            isdigits = true;
+            //        }
+            //        else if (char.IsUpper(c))
+            //        {
+            //            isupper = true;
+            //        }
+            //        else if (char.IsWhiteSpace(c))
+            //        {
+            //            hasspace = true;
+            //        }
+            //    }
+            //    if (!isdigits)
+            //    {
+            //        isvalid = false;    
+            //        Console.WriteLine("Password must contain at least one digit.");
+            //    }
+            //     if(!isupper)
+            //    {
+            //        isvalid = false;
+            //        Console.WriteLine("Password must contain at least one uppercase letter.");
+            //    }
+            //     if(hasspace)
+            //    {
+            //         isvalid= false;
+            //        Console.WriteLine("Password must not contain spaces.");
+            //    }
+                 
+            //    if (isvalid)
+            //    {
+            //        Console.WriteLine("Password is valid.");
+            //        break;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine($"Please try again.Attempts left: {5 - attempt}");
+            //    }
+            //}while (attempt < 5);
+            //if (attempt == 5 &&!isvalid)
+            //{
+            //    Console.WriteLine("Maximum attempts reached. your account blocked.");
+            //}
+            #endregion
         }
     }
 }
